@@ -5999,7 +5999,7 @@ it('Should return \'nine hundred ninety eight\' when 998 given', () => {
 
 it('Should return \'nine hundred ninety nine\' when 999 given', () => {
   const readable = toReadable(999);
-  return(toReadable);
+  
   assert.equal(readable, 'nine hundred ninety nine');
   
 });
